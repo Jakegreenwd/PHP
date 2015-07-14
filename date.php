@@ -9,19 +9,19 @@ $suffix = "";
 //switch statement to determine proper suffix to use after date variable
 switch($date) {
     case 1:
-        $suffix = "st.";
+        $suffix = "st";
         break;
     case 2:
-        $suffix = "nd.";
+        $suffix = "nd";
         break;
     case 3:
-        $suffix = "rd.";
+        $suffix = "rd";
         break;
     case 4-30:
-        $suffix = "th.";
+        $suffix = "th";
         break;
     default:
-        $suffix = "th.";
+        $suffix = "th";
         break;
 }
 
